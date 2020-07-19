@@ -1,0 +1,266 @@
+.bold {
+  font-weight: bold;
+}
+
+.small {
+  font-size: medium;
+}
+
+header h1 {
+  font-family: 'VT323', monospace;
+  font-size: 35pt;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  background-image: url('https://wallup.net/wp-content/uploads/2019/09/07/259680-sunrise-minecraft-748x421.jpg');
+  background-size: cover;
+  background-repeat: none;
+}
+
+.adventure-img {
+  display: block;
+  width: 80%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#root, html, body {
+  font-family: monospace;
+  height: 100%;
+}
+
+.btn {
+  background-color: #5b8731;
+  margin-top: 10px;
+  width: 50%;
+}
+
+#app {
+  height: 60%;
+}
+
+.login-modal, .help-modal {
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 10px 26px -4px rgba(102,102,102,1);
+  -moz-box-shadow: 3px 10px 26px -4px rgba(102,102,102,1);
+  box-shadow: 3px 10px 26px -4px rgba(102,102,102,1);
+  padding: 20px;
+}
+
+.help-modal {
+  width: 80%;
+  height: 80%;
+}
+
+#loading {
+  width: 100%;
+  height: 100%;
+  background-Image: url('./img/loading.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.login-modal {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-modal h1, h2 {
+  font-family: 'VT323', monospace;
+}
+
+.login-modal button, .login-modal input {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.login-modal h1 {
+  font-size: small;
+}
+
+.overlay-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(34,139,34, 0.8);
+}
+
+main {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.adventure-content {
+  background-color: white;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  height: 100%;
+}
+
+.conversation-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-center {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container p {
+  width: 80%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.code-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  height: 100%;
+}
+
+.code-container button {
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #5b8731;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.code-container p:nth-child(3) {
+  font-weight: bold; 
+  font-size: xx-large;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.code-container input {
+  padding: 10px;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#control {
+  display: flex;
+  justify-content: space-between;
+}
+
+#control p {
+  color: white;
+  text-align: center;
+  margin: 10px 10px;
+  font-size: small;
+  width: 30%;
+}
+
+.convo {
+  flex-grow: 2;
+  font-size: x-large;
+  background-color: white;
+  padding: 20px;
+  flex-basis: 60%;
+}
+
+.character-img {
+  flex-basis: 40%;
+  height: 100%;
+  /* background-image: url('./img/girl.png'); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.prog-bar {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+  height: 10px;
+  width: 100%;
+}
+
+.prog-bar div {
+  height: 80%;
+  width: 1%;
+  border-radius: 10px;
+  background-color: #5b8731;
+}
+
+.adventure-content iframe {
+  width: 500px;
+  height: 100%;
+}
+
+.end-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  padding-top: 10px;
+}
+
+.end-container img {
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.help-modal {
+  overflow-x: scroll;
+}

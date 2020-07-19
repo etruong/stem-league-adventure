@@ -1,0 +1,636 @@
+{
+    "name": "Minecraft Coding Adventures",
+    "description": "A coding adventure in the minecraft world! Use your web development skills to survive.",
+    "font": "'VT323', monospace",
+    "backgroundImage": "https://wallup.net/wp-content/uploads/2019/09/07/259680-sunrise-minecraft-748x421.jpg",
+    "backgroundColor": "",
+    "help": [
+        "",
+        ""
+    ],
+    "content": [
+        {
+            "id": "",
+            "type": "image",
+            "description": "You are trapped in an unknown dark room",
+            "src": "https://i.ytimg.com/vi/zgSM6PB1kh0/maxresdefault.jpg"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "You look left and right and all around you, until you find a torch near you",
+            "src": "https://i.ytimg.com/vi/zgSM6PB1kh0/maxresdefault.jpg"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "You light up the torch, it seems like you're in a room in a empty library",
+            "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/242e9e4b-61f4-4819-856c-259f916232af/d6crkkx-7eb562d1-f656-4130-9287-b8e437459cc1.png/v1/fill/w_1024,h_576,strp/dark_room_minecraft_wallpaper_by_wika7815_d6crkkx-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC8yNDJlOWU0Yi02MWY0LTQ4MTktODU2Yy0yNTlmOTE2MjMyYWZcL2Q2Y3Jra3gtN2ViNTYyZDEtZjY1Ni00MTMwLTkyODctYjhlNDM3NDU5Y2MxLnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Rp8fD2hlYBbYhScBow5Kmteze18u-A0vXwCqODRNNlA"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Hello traveler...."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "AAHHH! Who are you!?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "AAHH!! I didn't mean to startle you!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "Well you did -_-"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "I'm sorry! I'm sorry!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "Where am I? I was just in the middle of completing a coding session for the STEM League program... now I'm all pixelated D: ...wait is this the Minecraft World?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Don't worry traveler! You are right. You are in the Minecraft World. My name is Jeff, a mere citizen in the Minecraft World. I asked the STEM League leaders: Elizabeth and Christin Lin if I could have any developers help me with a quest, so you were transported here."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "...a quest? what do you mean?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Yes a quest! If you look around, this is my home underground."
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "A long long time ago, 5 months ago to be exact. The Minecraft citizens used to live above ground. It was a beautiful time, filled with peace.",
+            "src": "https://www.pcgamesn.com/wp-content/uploads/2019/09/minecraft-village.jpg"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "Then everything changed on a fateful rainy day.",
+            "src": "https://i.redd.it/8mlmyu3xr5931.png"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "Hundreds of creepers started attacking our village. It was so unexpected, we didn't know what to do.",
+            "src": "https://vignette.wikia.nocookie.net/minecraftfanon/images/c/cc/Creeper_army_LK.png/revision/latest?cb=20130323221750"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "Our villagers fought as hard as we could, but we were outnumbered.",
+            "src": "https://www.clipartkey.com/mpngs/m/233-2331989_jpg-royalty-free-download-minecraft-roblox-herobrine-fighting.png"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "Some got captured, others barely escaped like me where we built a rebellion underground.",
+            "src": "https://i.redd.it/6ekrick266x21.jpg"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "We've been living here planning a comeback. We've learned there's a creeper king who planned the attack 5 months ago, and are leading the rest of creepers now.",
+            "src": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e1a37182-6c04-41de-85a8-911a2e9fe6f3/d3dxiao-d51c51d4-6b3f-4261-9f72-223ca310993c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZTFhMzcxODItNmMwNC00MWRlLTg1YTgtOTExYTJlOWZlNmYzXC9kM2R4aWFvLWQ1MWM1MWQ0LTZiM2YtNDI2MS05ZjcyLTIyM2NhMzEwOTkzYy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.BhMkT-FpOuBv7By6-jwC4vHOCfz1r05UN-SlZos7W5w"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "The only problem with our plan is that we need someone who knows how to code. Someone who can help us if we run into coding issues. Will you help us?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "I'm not sure... I just learned all these coding concepts..."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "I know you can do it. I don't know everything either, but you won't be alone.."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "Ok. I'll do it."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Ok great! Our plan is simple. We need to capture and imprison the creeper king."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Creepers can't do anything without their king."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "Ok. Sounds like a plan."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Our first step is getting out of our base. Follow me."
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "https://lh3.googleusercontent.com/proxy/VnYEwD51e3lH1dg97ASI7DpBpN78bwS2Cn9zXfQyoCBT6wh2Ona8qzzOR48Wdljj9YFvKb7sjzYv-7vBbprOxEy1N5chZvvHbGloLrBTvnJSsvOuQry38Wquf4Yn1A"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "https://i.pinimg.com/originals/5b/2e/61/5b2e61a4351cbf181a52de10927dc93c.jpg"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQFN-DoC6yIliCcbc50A-onj_oLQVQTmTqkIQ&usqp=CAU"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Ah looks like the gates password was reset. We usually reset the gates password, but it's not as simple to figure out the password."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "The password is revealed after you complete a coding challenge. You up for it?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "I think so!"
+        },
+        {
+            "id": "",
+            "type": "code",
+            "question": "Name the living organisms that appear in alphabetical order, separated by a space.",
+            "repo": "etruong/minecraft-challenge and navigating to the folder challenge-1",
+            "answer": "duck pig tree",
+            "incorrect": {
+                "speaker": "Jeff",
+                "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+                "text": "Remember 3 things: creating an element starts with an opening and closing tag, display controls how the element appears as, the classes and ids are there already you just need to apply them to an element"
+            }
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Yes it opened! Let's go!"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "https://vignette.wikia.nocookie.net/minecraft/images/e/e6/Bamboo-forest-seed-minecraft-1-14.jpeg/revision/latest?cb=20190611105845"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "https://preview.redd.it/tdg3mp7bpuc31.png?width=2520&format=png&auto=webp&s=f103554f0f9fa794c39034c333c73b14c11e4dfe"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Aah I'm a bit tired. Let's stop and rest a bit."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Do you have any water in your pack?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "water?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Oh um. Do you have any food with you?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "I don't have food :("
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "A sword? We'll need to go to battle."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "Nope"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "I don't have anything! I just landed here rememember!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "That's right! I'm sorry. We'll need to get you some supplies. Here's a piece of meat in the meantime."
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "(Note only one meat of the many is yours)",
+            "src": "https://lh3.googleusercontent.com/proxy/4uz7BTowlvkJzbIQQV-nuVptDyFS9zTKm9d6KcDMw2cDAgA2GL086ENxR7jGj-4JtvYJWgjsKiJmdbMy_2-ilaYjBwhSGvHZM3unYguKbQ"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "You're probably wondering where we are going."
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "One of our rebels stole this from a creeper. It's a map of their base. We're headed there now, but we have a long ways to go.",
+            "src": "https://assets.gamepur.com/wp-content/uploads/2020/03/17231610/minecraft-map-display-example-816x527-1.png"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Let's get you some supplies though"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "If you solve this coding challenge, it should give you all the supplies you need."
+        },
+        {
+            "id": "",
+            "type": "code",
+            "question": "Type the passcode below given to you after completing the tasks of coding challenge-2.",
+            "repo": "etruong/minecraft-challenge and navigating to the folder challenge-2",
+            "answer": "doge me loge",
+            "incorrect": {
+                "speaker": "Jeff",
+                "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+                "text": "Remember to create an element you do: document.createElement() and you can change it's attributes using dot notation! You'll have to remember to append it to a parent node after you create it! You'll be grabbing a lot of DOM elements and removing them, so remember the 2 way to grab one."
+            }
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Great! Check your pouch! It should have everything you need."
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "You look inside your inventory. You have 5 meats, 2 berries, 3 waterbuckets, an axe, and a pickaxe. (Note picture does not match what you actually have)",
+            "src": "https://i.ytimg.com/vi/4YcDzLTKVus/maxresdefault.jpg"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "Hey where's my sword?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Oh almost everything. You'll need to make the sword yourself."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "Myself... can't you just make it for me."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "It's a Minecraft tradition!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "Okay...."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "You got this! :)"
+        },
+        {
+            "id": "",
+            "type": "code",
+            "question": "Type the passcode below given to you after completing the tasks of coding challenge-3.",
+            "repo": "etruong/minecraft-challenge and navigating to the folder challenge-3",
+            "answer": "firey flowy fight",
+            "incorrect": {
+                "speaker": "Jeff",
+                "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+                "text": "You'll be using if/else statements and manipulating the DOM again! So remember you create an element using document.createElement() but also once you've adjusted the attributes you'll need to attach it to a parent. The double tap event listener is something you'll need to Google!"
+            }
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "You created a sword",
+            "src": "https://pm1.narvii.com/5762/bb5caa7b8dacba95c18bdc9394c7ac1cba743a13_hq.jpg"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Man! That looks awesome!!!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Now that we're prepared we can head into creeper territory and take back our village!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "Thanks! Let's do this!"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "https://www.minecraft.net/content/dam/archive/911d3acfbd2dd2013a166816e600ada3-ingame%20(1).jpg"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "https://static.planetminecraft.com/files/resource_media/screenshot/1629/2016-07-25_00252010380612.png"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "https://thumbs.gfycat.com/UnfortunateEvenArgentinehornedfrog-size_restricted.gif"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2020/04/minecraft-dungeons-beta-creeper-03.jpg"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Okay, we made it to their base. We gotta stealthfully move by. Follow me"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "Ok! I got your back!"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "https://s3.amazonaws.com/prod-media.gameinformer.com/styles/full/s3/2020/04/06/053db62d/minecraftdungeons.jpg"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "https://cdn.vox-cdn.com/thumbor/-d_Ty1dH3s0oA9J34FgHHlApJTc=/0x0:2880x1622/1200x800/filters:focal(1198x1049:1658x1509)/cdn.vox-cdn.com/uploads/chorus_image/image/66663468/3.0.jpg"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "I'm assuming it's here. This is where the king resides."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Yes. We've been waiting and planning for this moment for 5 months. Are you ready?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "I'm scared, but I'm ready!"
+        },
+        {
+            "id": "",
+            "type": "code",
+            "question": "What was the phrase the creeper king yelled when he was defeated and captured?",
+            "repo": "etruong/minecraft-challenge and navigating to the folder challenge-4",
+            "answer": "creeper steepers treepers",
+            "incorrect": {
+                "speaker": "Jeff",
+                "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+                "text": "Remember how to do on change and click event listeners and search how to get the dropdown value"
+            }
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Creeper King",
+            "img": "https://lh3.googleusercontent.com/a28_Bx54NIMtmwslR-NvhS9NgONlrg1FP5pY7q4n21u-rSf_JpZ6AWAPHCajiGHCr8wTP3hoXRM5ckjN_UFZgA=s400",
+            "text": "How dare you do this to me!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Well we just did! :)"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "And I'm taking back my village!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Creeper King",
+            "img": "https://lh3.googleusercontent.com/a28_Bx54NIMtmwslR-NvhS9NgONlrg1FP5pY7q4n21u-rSf_JpZ6AWAPHCajiGHCr8wTP3hoXRM5ckjN_UFZgA=s400",
+            "text": "I have one last thing I can do! AARRGHH!!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "OH NO He's gonna explode!!!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "GET BACK!!!!"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "https://thumbs.gfycat.com/BewitchedHealthyAstarte-size_restricted.gif"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "Oh no what do we do now!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "It's okay traveler! He's gone, and we've completed what you came here to do."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "My village can come home and start rebuilding what they lost. Thank you for everything that you've done."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "This is not goodbye, but see you later!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Jeff",
+            "img": "https://www.kindpng.com/picc/m/222-2222825_image-of-minecraft-character-avatar-render-minecraft-cinema.png",
+            "text": "Keep those sharp coding skills you got there."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://vignette.wikia.nocookie.net/characters/images/b/b3/SteveMinecraft.png/revision/latest/top-crop/width/360/height/450?cb=20160127082617",
+            "text": "Thanks for guiding me Jeff :')"
+        },
+        {
+            "id": "",
+            "type": "end",
+            "gif": "https://thumbs.gfycat.com/IdenticalOpenGull-size_restricted.gif"
+        }
+    ]
+}
