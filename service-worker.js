@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/stem-league-adventure/precache-manifest.3a1fcc3f5db72cd06f30438a6d7619c6.js"
+  "/stem-league-adventure/precache-manifest.a0b2b8852720f1037809786be1e22fa1.js"
 );
 
 self.addEventListener('message', (event) => {
