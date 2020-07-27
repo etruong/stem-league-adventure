@@ -1,9 +1,11 @@
 {
+    "id": "minecraft",
     "name": "Minecraft Coding Adventures",
     "description": "A coding adventure in the minecraft world! Use your web development skills to survive.",
     "font": "'VT323', monospace",
     "backgroundImage": "https://wallup.net/wp-content/uploads/2019/09/07/259680-sunrise-minecraft-748x421.jpg",
-    "backgroundColor": "",
+    "backgroundColor": "light",
+    "color": "#5b8731",
     "help": [
         "",
         ""

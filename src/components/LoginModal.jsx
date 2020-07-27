@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import firebase from 'firebase/app';
 import 'firebase/database';
+import minecraft from '../data/minecraft-adventure.json';
+import demigod from '../data/demigod-adventure.json';
 
 export const LoginModal = (props) => {
+    const [adventure, setAdventure] = useState("mine");
     const [id, setID] = useState("");
     let user = firebase.database().ref("users/" + id);
 
@@ -19,25 +22,43 @@ export const LoginModal = (props) => {
             if (!userVal) {
                 userVal = {
                     id: id,
-                    index: 0,
-                    passwords: {
-                        0: "What is love"
-                    }
+                    minecraft: 0,
+                    demigod: 0,
+                    animal: 0
                 }
                 user.set(userVal)
             }
             props.setUser(userVal);
-            props.setPhase(userVal.index);
+            if (adventure === "mine") {
+                props.setPhase(userVal.minecraft);
+            } else if (adventure === "demi") {
+                props.setPhase(userVal.demigod);
+            } else if (adventure === "animal") {
+                props.setPhase(userVal.animal);
+            }
         });
+    }
+
+    const changeData = (event) => {
+        setAdventure(event.target.value);
+        if (event.target.value === "mine") {
+            props.setData(minecraft);
+        } else { // event.target.value === "demi"
+            props.setData(demigod);
+        }
     }
 
     return <>
         <h1>STEM League Friday Adventure</h1>
-        <h2>Minecraft Adventure</h2>
         <p>
-            Welcome to the very first web development escape room/coding adventure!<br />
+            Welcome to the web development escape room/coding adventure!
             Open up your Repl.it to complete coding challenges and surpass the challenges
         </p>
+        <h2>Select your adventure:</h2>
+        <select onChange={changeData} value={adventure}>
+            <option value="mine">Minecraft Adventures</option>
+            <option value="demi">DemiGod Adventures</option>
+        </select>
         <input value={props.id} onChange={(event) => { setID(event.target.value) }} 
             type="text" placeholder="Type your Developer ID here" />
         <button className="btn" onClick={login}>Enter</button>

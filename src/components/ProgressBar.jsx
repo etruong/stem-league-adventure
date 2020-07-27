@@ -2,6 +2,7 @@ import React from 'react';
 
 export const ProgressBar = (props) => {
     const style = {
+        backgroundColor: props.color,
         width: props.percent + "%"
     }
 

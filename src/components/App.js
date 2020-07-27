@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import adventureJSON from '../data/adventure.json';
+import minecraft from '../data/minecraft-adventure.json';
 import Modal from 'react-modal';
 import firebase from 'firebase/app';
 import 'firebase/database';
@@ -9,13 +9,16 @@ import { ProgressBar } from './ProgressBar';
 import { LoginModal } from './LoginModal';
 
 Modal.setAppElement("#root");
-const data = adventureJSON;
 
 const App = () => {
+    const [data, setData] = useState(minecraft);
     const [user, setUser] = useState(null);
     const [phase, setPhase] = useState(0);
     const [helpModal, setHelpModal] = useState(false);
     const [loginModal, setLoginModal] = useState(true);
+
+    let root = document.getElementById("root");
+    root.style.backgroundImage = "url('" + data.backgroundImage + "')";
 
     return (
         <div id="app" className="container">
@@ -25,9 +28,10 @@ const App = () => {
                 shouldCloseOnOverlayClick={false}
                 isOpen={loginModal}
                 onRequestClose={() => { setLoginModal(false) }}
-                contentLabel="Login Modal"
+                contentLabel="Login Modal" 
             >
-                <LoginModal open={setLoginModal} setUser={setUser} setPhase={setPhase} />
+                <LoginModal open={setLoginModal} setUser={setUser} setPhase={setPhase} setData={setData}
+                data={data} />
             </Modal>
             <Modal
                 overlayClassName="overlay-modal"
@@ -38,9 +42,16 @@ const App = () => {
             >
                 <HelpModal open={setHelpModal} content={data.content[phase]} />
             </Modal>
-            <Header name={data.name} />
-            {user ? <MainContent content={data.content} helpModal={setHelpModal} 
-                phase={phase} setPhase={setPhase} user={user} setUser={setUser} /> : <div id="loading">&nbsp;</div>}
+            <Header name={data.name} bgColor={data.backgroundColor} />
+            {user ? <MainContent 
+                dataType={data.id} 
+                color={data.color} 
+                content={data.content} 
+                helpModal={setHelpModal} 
+                phase={phase} 
+                setPhase={setPhase} 
+                user={user} 
+                setUser={setUser} /> : <div id="loading">&nbsp;</div>}
         </div>
     );
 }
@@ -72,21 +83,9 @@ const MainContent = (props) => {
     const [solved, setSolved] = useState(false);
     const progress = (props.phase + 1) / props.content.length * 100;
 
-    React.useEffect(() => {
-        let user = firebase.database().ref("users/" + props.user.id);
-        user.on('value', (snapshot) => {
-            let snap = snapshot.val();
-            props.setUser(snap);
-        });
-
-        return () => {
-            user.off();
-        }
-    }, [props]);
-
     return (
         <main>
-            <ProgressBar percent={progress} />
+            <ProgressBar percent={progress} color={props.color} />
             <AdventureContainer 
                 content={props.content[props.phase]} 
                 helpModal={props.helpModal}
@@ -95,6 +94,8 @@ const MainContent = (props) => {
                 solved={solved}
                 setSolved={setSolved}
                 setUser={props.setUser}
+                color={props.color}
+                dataType={props.dataType}
             />
             <Controls 
                 changeFunc={props.setPhase}
@@ -104,6 +105,7 @@ const MainContent = (props) => {
                 solved={solved}
                 setSolved={setSolved}
                 contentType={props.content[props.phase].type}
+                color={props.color}
             />
         </main>
     );
@@ -126,13 +128,19 @@ const Controls = (props) => {
         }
     }
 
+    let style = {
+        backgroundColor: props.color
+    }
+
     return (
         <section id="control">
             <button 
+                style={style}
                 className={"btn " + (backDisabled ? "invisible" : "")} 
                 onClick={backFunc}>Back</button>
             <p className="small">Current Developer: {props.user.id}</p>
             <button 
+                style={style}
                 className={"btn " + (nextDisabled ? "invisible" : "")} 
                 onClick={nextFunc}
                 disabled={props.contentType === "code" && !props.solved}
@@ -194,9 +202,11 @@ const AdventureContainer = (props) => {
             user={props.user}
             setUser={props.setUser}
             solved={props.solved}
-            setSolved={props.setSolved} />
+            setSolved={props.setSolved}
+            color={props.color}
+            dataType={props.dataType} />
     } else if (props.content.type === "end") {
-        content = <EndingContainer user={props.user} phase={props.phase} content={props.content} />;
+        content = <EndingContainer user={props.user} phase={props.phase} content={props.content} dataType={props.dataType} />;
     }
 
     return (
@@ -210,7 +220,7 @@ const EndingContainer = (props) => {
     const [show, setShow] = useState(false);
 
     React.useEffect(() => {
-        let ref = firebase.database().ref("complete/" + props.user.id);
+        let ref = firebase.database().ref("complete/" + props.dataType + "/" + props.user.id);
         ref.on('value', (snapshot) => {
             let val = snapshot.val();
             if (val) {
@@ -218,12 +228,12 @@ const EndingContainer = (props) => {
             }
         });
         return () => { ref.off() };
-    }, [props.user.id]);
+    }, [props.user.id, props.dataType]);
 
     const recordCompletion = () => {
-        let ref = firebase.database().ref("complete/" + props.user.id);
+        let ref = firebase.database().ref("complete/" + props.dataType + "/" + props.user.id);
         ref.set(true);
-        let userIndex = firebase.database().ref("users/" + props.user.id + "/index");
+        let userIndex = firebase.database().ref("users/" + props.user.id + "/" + props.dataType);
         userIndex.set(props.phase);
     }
 
@@ -240,12 +250,10 @@ const CodeContainer = (props) => {
     const [response, setResponse] = useState("");
 
     const submitResponse = () => {
-        if (response === props.content.answer) {
+        if (response.toLowerCase() === props.content.answer.toLowerCase()) {
             props.setSolved(true);
-            let userIndex = firebase.database().ref("users/" + props.user.id + "/index");
-            let userPass = firebase.database().ref("users/" + props.user.id + "/passwords/" + props.phase);
+            let userIndex = firebase.database().ref("users/" + props.user.id + "/" + props.dataType);
             userIndex.set(props.phase);
-            userPass.set(response);
         } else {
             props.helpModal(true);
         }
@@ -267,11 +275,11 @@ const CodeContainer = (props) => {
                         setResponse(event.target.value);
                     }}
                 />
-                <button onClick={submitResponse}>Submit</button>
+                <button style={{ backgroundColor: props.color }} onClick={submitResponse}>Submit</button>
                 <br />
-                {props.content.type === "code" && props.user.passwords[props.phase] === props.content.answer ?
+                {props.content.type === "code" && props.user[props.dataType] >= props.phase ?
                 <p className="small">
-                    Nice you solved this already! <br />Remember the answer is: {props.content.answer}
+                    Nice you solved this already! <br />Remember the answer is: {props.content.answer.toLowerCase()}
                 </p> : null
                 }
             </div>;
