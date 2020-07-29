@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import minecraft from '../data/minecraft-adventure.json';
+import demigod from '../data/demigod-adventure.json';
 import Modal from 'react-modal';
 import firebase from 'firebase/app';
 import 'firebase/database';
@@ -11,7 +11,7 @@ import { LoginModal } from './LoginModal';
 Modal.setAppElement("#root");
 
 const App = () => {
-    const [data, setData] = useState(minecraft);
+    const [data, setData] = useState(demigod);
     const [user, setUser] = useState(null);
     const [phase, setPhase] = useState(0);
     const [helpModal, setHelpModal] = useState(false);
@@ -238,7 +238,7 @@ const EndingContainer = (props) => {
     }
 
     return <div class="end-container">
-        <h2>Congratulations on Completing the Minecraft Coding Adventure!</h2>
+        <h2>Congratulations on Completing the Coding Adventure!</h2>
         <p>Click the button below so we can record your completion!</p>
         <button onClick={recordCompletion}>Complete Adventure</button>
         <img className={show ? "" : "hidden"} src={props.content.gif} alt="celebration" />

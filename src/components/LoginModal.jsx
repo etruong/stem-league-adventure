@@ -3,9 +3,10 @@ import firebase from 'firebase/app';
 import 'firebase/database';
 import minecraft from '../data/minecraft-adventure.json';
 import demigod from '../data/demigod-adventure.json';
+import animal from '../data/animal-adventure.json';
 
 export const LoginModal = (props) => {
-    const [adventure, setAdventure] = useState("mine");
+    const [adventure, setAdventure] = useState("demi");
     const [id, setID] = useState("");
     let user = firebase.database().ref("users/" + id);
 
@@ -43,8 +44,10 @@ export const LoginModal = (props) => {
         setAdventure(event.target.value);
         if (event.target.value === "mine") {
             props.setData(minecraft);
-        } else { // event.target.value === "demi"
+        } else if (event.target.value === "demi") { 
             props.setData(demigod);
+        } else { // event.target.value === "animal"
+            props.setData(animal);
         }
     }
 
@@ -58,6 +61,7 @@ export const LoginModal = (props) => {
         <select onChange={changeData} value={adventure}>
             <option value="mine">Minecraft Adventures</option>
             <option value="demi">DemiGod Adventures</option>
+            <option value="animal" disabled>Animal Crossing Adventures</option>
         </select>
         <input value={props.id} onChange={(event) => { setID(event.target.value) }} 
             type="text" placeholder="Type your Developer ID here" />

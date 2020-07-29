@@ -1,0 +1,584 @@
+{
+    "id": "animal",
+    "name": "Animal Crossing Coding Adventures",
+    "description": "A coding adventure in the Animal Crossing World! Use your web development skills to navigate.",
+    "font": "'VT323', monospace",
+    "backgroundImage": "https://cdn.mos.cms.futurecdn.net/G79YngbW86RJ2QtzFfZEu3-1200-80.jpg",
+    "backgroundColor": "light",
+    "color": "#A1D9BC",
+    "help": [
+        "",
+        ""
+    ],
+    "content": [
+        {
+            "id": "",
+            "type": "video",
+            "url": "HOi4VPm5Hnk"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "Welcome to the Animal Crossing World!",
+            "src": "https://images.nintendolife.com/61917b9e57dea/ac.original.jpg"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "You'll be reaching Codica island soon.",
+            "src": "https://images.nintendolife.com/61917b9e57dea/ac.original.jpg"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "Welcome to Codica Island",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRuKWTcnxJZrQTOFGBT4kel-ISE8MKh3-MWHg&usqp=CAU"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "https://cdn.mos.cms.futurecdn.net/Mii6W2fuVmYNXJkWNqvNhT.jpg"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "**You get off the plane, but there's no one there to greet you**"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "Maybe I'll go to this building over here..."
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "",
+            "src": "data:image/jpeg;base64,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"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "Isabelle: Oh did no one greet you? That's odd.",
+            "src": "https://images.nintendolife.com/f884627b7b7b2/animal-crossing-new-horizons-isabelle.original.jpg"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "Isabelle: Let me check if Tom Nook is in...",
+            "src": "https://images.nintendolife.com/f884627b7b7b2/animal-crossing-new-horizons-isabelle.original.jpg"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Tom Nook",
+            "img": "https://upload.wikimedia.org/wikipedia/en/7/72/Tom_Nook.png",
+            "text": "Hello?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "Hey Tom! It's Isabelle. I have a villager here who is ready to move in... where are you on the island?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Tom Nook",
+            "img": "https://upload.wikimedia.org/wikipedia/en/7/72/Tom_Nook.png",
+            "text": "Oh! Didn't I tell you? I'm going on vacation today with my sons."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "What."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Tom Nook",
+            "img": "https://upload.wikimedia.org/wikipedia/en/7/72/Tom_Nook.png",
+            "text": "Yeah I thought you wrote it on your calendar."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "*Checks calendar* Oh whoops looks like I did write it down 😅"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "Sorry about that Nook! I guess I forgot I'll be handling all your duties today."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Tom Nook",
+            "img": "https://upload.wikimedia.org/wikipedia/en/7/72/Tom_Nook.png",
+            "text": "It's okay. Thanks for covering for me today. I'll see you tomorrow!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "Bye have a nice day off!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "Well kiddo looks like I'm suppose to help out with Tom Nooks tasks..."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "The thing is, it's almost a Summer festival and I have to do a lot today."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "It looks like looking at my calendar Tom Nook was suppose to do a lot today as well..."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "I know you just got here, but could you help me out, and sub for Tom Nook?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "Umm but I need to move in 😭"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "I'll pay you 50k bells! You'll have to pay off your debt and these bells will help!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "Okay... I guess I will."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "Thank you!! 🥺 I owe you big time."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "The first task you'll actually have to do is update our billboard. Tom Nook always does that every week and since it's the beginning of the week it needs to be done. Can you do that?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "I think so!"
+        },
+        {
+            "id": "",
+            "type": "code",
+            "question": "Type the passcode below given to you after completing the billboard.",
+            "repo": "etruong/ac-adventures and navigating to the folder challenge-1",
+            "answer": "Isabelle Belle Bells",
+            "incorrect": {
+                "speaker": "Isabelle",
+                "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+                "text": "Looks like it's missing a few things. Try again and I'll post it up!"
+            }
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "It looks beautiful! Thank you for doing that."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "Thanks I feel like I tried my best! I'm proud of it."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "I'm glad you're proud! I'll just make sure to place this on the billboard."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "Next thing you need to do is move in. Usually Tom Nook clears a space on the island and places a tent for the villager, but you'll have to do that yourself."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "Okay... sounds fine, what do I have to do?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "He usually clears out the weeds and trash..."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "Oh also you have to rearrange how the villagers homes are..."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "That sounds like a lot..."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "It shouldn't be too hard! It sounds like a lot, but it isn't"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "Okay I'll just go out and do that then!"
+        },
+        {
+            "id": "",
+            "type": "code",
+            "question": "Type the passcode below given to you after moving yourself in.",
+            "repo": "etruong/ac-adventures and navigating to the folder challenge-2",
+            "answer": "Home Sweet Home",
+            "incorrect": {
+                "speaker": "Isabelle",
+                "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+                "text": "Looks like it's missing a few things. Try again and I'll post it up!"
+            }
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "Yes finally moved in :)"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "I should probably go back to Isabelle to see if there are any tasks to do"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "At this point, you have completed the Animal Crossing Coding Challenge! Click the next slide and press complete so we can record it. All challenges following these challenges are optional and for those who want to challenge themselves!",
+            "src": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/df/Completrrs_acnh.jpg/revision/latest?cb=20200329145109"
+        },
+        {
+            "id": "",
+            "type": "end",
+            "gif": "https://media2.giphy.com/media/KFhv3T1seYSJuak8TN/200.gif"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "You notice a villager who looks kind of frantic and worried near the town hall",
+            "src": "https://i.redd.it/kfj1grvkg0u41.jpg"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "Hello! I just moved in, and I'm subbing in for Tom Nook."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "You seemed kind of stressed. Can I help you with anything?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Fauna",
+            "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/Fauna.png/revision/latest/scale-to-width-down/350?cb=20161008150856",
+            "text": "Hi! I'm Fauna. I am kind of stressed honestly 😭"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Fauna",
+            "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/Fauna.png/revision/latest/scale-to-width-down/350?cb=20161008150856",
+            "text": "My phone has been broken for like three days now"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Fauna",
+            "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/Fauna.png/revision/latest/scale-to-width-down/350?cb=20161008150856",
+            "text": "I've been busy and was going to go to Tom Nook to see if I could get it fixed, but he's on vacation today 😭"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Fauna",
+            "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/Fauna.png/revision/latest/scale-to-width-down/350?cb=20161008150856",
+            "text": "I just need my phone cause I'm going to visit my friend on another island soon"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "I could try helping you out. Maybe I could fix it."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Fauna",
+            "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/Fauna.png/revision/latest/scale-to-width-down/350?cb=20161008150856",
+            "text": "Really?! You're so sweet. Thank you 😭"
+        },
+        {
+            "id": "",
+            "type": "code",
+            "question": "Type the passcode below given to you after fixing Fauna's phone.",
+            "repo": "etruong/ac-adventures and navigating to the folder challenge-3",
+            "answer": "Fauna Phone Home",
+            "incorrect": {
+                "speaker": "Fauna",
+                "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/Fauna.png/revision/latest/scale-to-width-down/350?cb=20161008150856",
+                "text": "AAHH I feel like you almost got it. I feel it in my hooves. Try again!"
+            }
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Fauna",
+            "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/Fauna.png/revision/latest/scale-to-width-down/350?cb=20161008150856",
+            "text": "AAHHH It's working! Thank you 😭 Thank you 😭"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "It was no big deal :)"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Fauna",
+            "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/Fauna.png/revision/latest/scale-to-width-down/350?cb=20161008150856",
+            "text": "No it was! I want to give you this piece of furniture as a welcome to the island gift but also thank you."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "Thanks!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "Now I gotta talk to Isabelle, so I'll talk to you later"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Fauna",
+            "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/72/Fauna.png/revision/latest/scale-to-width-down/350?cb=20161008150856",
+            "text": "Bye deary! 🙂"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "Hey Isabelle! Are there any other tasks that I need to do that Tom Nook would?"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "Hello Hello! First off Congrats on moving in finally :)"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "I think the only thing you need to do is run Tom Nook's store!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Isabelle",
+            "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+            "text": "It should be at the center of Codica Island. Let me know if you have trouble finding it."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "Okay! Will do."
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "You reach Nook's Cranny",
+            "src": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/28/NH-Nook%27s-Cranny-2-exterior.png/revision/latest?cb=20200406031316"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "You go inside, and you notice there are some things not working at the register",
+            "src": "https://static1.millenium.us.org/articles/7/15/65/7/@/163143-interieur2-orig-1-article_m-1.png"
+        },
+        {
+            "id": "",
+            "type": "code",
+            "question": "Type the passcode below given to you after fixing Tom Nook's Store.",
+            "repo": "etruong/ac-adventures and navigating to the folder challenge-4",
+            "answer": "Gotta Get Bells",
+            "incorrect": {
+                "speaker": "Isabelle",
+                "img": "https://www.ssbwiki.com/images/thumb/2/2b/Isabelle_SSBU.png/1200px-Isabelle_SSBU.png",
+                "text": "Wow you almost got it tidied and fixed up. I'd try one more time!"
+            }
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "Congrats! You've got it working!",
+            "src": "https://static1.millenium.us.org/articles/7/15/65/7/@/163143-interieur2-orig-1-article_m-1.png"
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "As the sun sets, you hear a chime indicating someone has entered the store",
+            "src": "https://media.tenor.com/images/b37b5213bf6c4086524b5e4c712c20e4/tenor.png"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Tom Nook",
+            "img": "https://upload.wikimedia.org/wikipedia/en/7/72/Tom_Nook.png",
+            "text": "Wow it looks great in here!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "Tom Nook? I thought you were coming back tomorrow"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Tom Nook",
+            "img": "https://upload.wikimedia.org/wikipedia/en/7/72/Tom_Nook.png",
+            "text": "Yeah well. I decided to come back a little earlier then planned."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Tom Nook",
+            "img": "https://upload.wikimedia.org/wikipedia/en/7/72/Tom_Nook.png",
+            "text": "I just wanted to say thanks for all your help today. I heard you were subbing in for me which Isabelle was suppose to do"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Tom Nook",
+            "img": "https://upload.wikimedia.org/wikipedia/en/7/72/Tom_Nook.png",
+            "text": "Isabelle is a busy person so I get it though!"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Tom Nook",
+            "img": "https://upload.wikimedia.org/wikipedia/en/7/72/Tom_Nook.png",
+            "text": "Thanks for everything that you've done"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "No problem! It was fun meeting everyone and seeing more of the island"
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "Tom Nook",
+            "img": "https://upload.wikimedia.org/wikipedia/en/7/72/Tom_Nook.png",
+            "text": "Yep. It sure is beautiful haha You'll love it here."
+        },
+        {
+            "id": "",
+            "type": "conversation",
+            "speaker": "You",
+            "img": "https://animalcrossingworld.com/wp-content/uploads/2020/02/161_200131_NSW_Animal-Crossing-New-Horizons_Characters-266-790x790.png",
+            "text": "I think I will."
+        },
+        {
+            "id": "",
+            "type": "image",
+            "description": "Congratulations on completing this coding adventure!",
+            "src": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/df/Completrrs_acnh.jpg/revision/latest?cb=20200329145109"
+        }
+    ]
+}
