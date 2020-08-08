@@ -6,7 +6,7 @@ import demigod from '../data/demigod-adventure.json';
 import animal from '../data/animal-adventure.json';
 
 export const LoginModal = (props) => {
-    const [adventure, setAdventure] = useState("demi");
+    const [adventure, setAdventure] = useState("animal");
     const [id, setID] = useState("");
     let user = firebase.database().ref("users/" + id);
 

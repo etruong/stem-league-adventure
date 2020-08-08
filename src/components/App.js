@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import demigod from '../data/demigod-adventure.json';
+import animal from '../data/animal-adventure.json';
 import Modal from 'react-modal';
 import firebase from 'firebase/app';
 import 'firebase/database';
@@ -11,7 +11,7 @@ import { LoginModal } from './LoginModal';
 Modal.setAppElement("#root");
 
 const App = () => {
-    const [data, setData] = useState(demigod);
+    const [data, setData] = useState(animal);
     const [user, setUser] = useState(null);
     const [phase, setPhase] = useState(0);
     const [helpModal, setHelpModal] = useState(false);
