@@ -61,7 +61,7 @@ export const LoginModal = (props) => {
         <select onChange={changeData} value={adventure}>
             <option value="mine">Minecraft Adventures</option>
             <option value="demi">DemiGod Adventures</option>
-            <option value="animal" disabled>Animal Crossing Adventures</option>
+            <option value="animal">Animal Crossing Adventures</option>
         </select>
         <input value={props.id} onChange={(event) => { setID(event.target.value) }} 
             type="text" placeholder="Type your Developer ID here" />
