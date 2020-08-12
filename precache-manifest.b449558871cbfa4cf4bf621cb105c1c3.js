@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a668c27ab67b1434d8843778faf5b55",
+    "revision": "28f5941ef22405877c67a17832f8d1f5",
     "url": "/stem-league-adventure/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stem-league-adventure/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "5c4ea5c93a06a645d30c",
+    "revision": "da67491c8c1d9d2057df",
     "url": "/stem-league-adventure/static/css/main.a5600838.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stem-league-adventure/static/js/2.cc57ede5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5c4ea5c93a06a645d30c",
-    "url": "/stem-league-adventure/static/js/main.744abc74.chunk.js"
+    "revision": "da67491c8c1d9d2057df",
+    "url": "/stem-league-adventure/static/js/main.f4d06d87.chunk.js"
   },
   {
     "revision": "2dc3e9271c0faed9c0c1",

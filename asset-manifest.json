@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/stem-league-adventure/static/css/main.a5600838.chunk.css",
-    "main.js": "/stem-league-adventure/static/js/main.744abc74.chunk.js",
-    "main.js.map": "/stem-league-adventure/static/js/main.744abc74.chunk.js.map",
+    "main.js": "/stem-league-adventure/static/js/main.f4d06d87.chunk.js",
+    "main.js.map": "/stem-league-adventure/static/js/main.f4d06d87.chunk.js.map",
     "runtime-main.js": "/stem-league-adventure/static/js/runtime-main.f025104a.js",
     "runtime-main.js.map": "/stem-league-adventure/static/js/runtime-main.f025104a.js.map",
     "static/css/2.829c9cb5.chunk.css": "/stem-league-adventure/static/css/2.829c9cb5.chunk.css",
     "static/js/2.cc57ede5.chunk.js": "/stem-league-adventure/static/js/2.cc57ede5.chunk.js",
     "static/js/2.cc57ede5.chunk.js.map": "/stem-league-adventure/static/js/2.cc57ede5.chunk.js.map",
     "index.html": "/stem-league-adventure/index.html",
-    "precache-manifest.1d9fcbf11490d472b0842fd8d90f4f66.js": "/stem-league-adventure/precache-manifest.1d9fcbf11490d472b0842fd8d90f4f66.js",
+    "precache-manifest.b449558871cbfa4cf4bf621cb105c1c3.js": "/stem-league-adventure/precache-manifest.b449558871cbfa4cf4bf621cb105c1c3.js",
     "service-worker.js": "/stem-league-adventure/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/stem-league-adventure/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.a5600838.chunk.css.map": "/stem-league-adventure/static/css/main.a5600838.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.cc57ede5.chunk.js",
     "static/css/main.a5600838.chunk.css",
-    "static/js/main.744abc74.chunk.js"
+    "static/js/main.f4d06d87.chunk.js"
   ]
 }
